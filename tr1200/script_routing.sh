@@ -258,7 +258,7 @@ add_packages() {
 }
 
 add_getdomains() {
-        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/babenychka/inside-dnsmasq-nfset.lst
+        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/babenychka/point_routing/refs/heads/main/inside-dnsmasq-nfset.lst
         printf "\033[32;1mCreate script /etc/init.d/getdomains\033[0m\n"
 
 cat << EOF > /etc/init.d/getdomains
