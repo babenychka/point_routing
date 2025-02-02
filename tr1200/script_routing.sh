@@ -99,8 +99,9 @@ cat << 'EOF' > /etc/sing-box/config.json
   ]
 }
 EOF
-printf "\033[32;1mConfigure route for Sing-box\033[0m\n"
-route_vpn
+        printf "\033[32;1mConfigure route for Sing-box\033[0m\n"
+        route_vpn
+        fi
 }
 
 dnsmasqfull() {
