@@ -235,8 +235,7 @@ add_dns_resolver() {
             printf "\033[32;1mDnsmasq restart\033[0m\n"
 
             /etc/init.d/dnsmasq restart
-        fi
-    fi
+        
 }
 
 add_packages() {
