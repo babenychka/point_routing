@@ -99,10 +99,9 @@ cat << 'EOF' > /etc/sing-box/config.json
   ]
 }
 EOF
-        fi
-        printf "\033[32;1mConfigure route for Sing-box\033[0m\n"
-        route_vpn
-    fi
+printf "\033[32;1mConfigure route for Sing-box\033[0m\n"
+route_vpn
+}
 
 dnsmasqfull() {
     if opkg list-installed | grep -q dnsmasq-full; then
