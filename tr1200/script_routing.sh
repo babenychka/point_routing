@@ -302,7 +302,6 @@ EOF
         printf "\033[32;1mStart script\033[0m\n"
 
         /etc/init.d/getdomains start
-    fi
 }
 
 # System Details
